@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="First Text View"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Second Text View"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/thirdTextView"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Third Text View"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/fourthTextView"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Fourth Text View"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="First Button"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Second Button"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Third Button"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/fourthButton"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:text="Fourth Button"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="632dp" />
+</android.support.constraint.ConstraintLayout>
